@@ -1,1 +1,13 @@
-/home/ray/.config/Code/User/settings.json
+// 將您的設定放入此檔案中以覆寫預設值
+{
+    "go.goroot": "/usr/local/go",
+    "go.gopath": "/home/ray/documents/go",
+    "go.formatTool": "goreturns",
+    "go.lintTool": "gometalinter",
+    //"markdown.preview.fontFamily": "'Noto Sans TC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light'",
+    "editor.wrappingColumn": 0,
+    "luacheck.luacheck": "/home/ray/luacheck-0.17.1/bin/luacheck",
+    "editor.fontFamily": "'Noto Sans', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "markdown.styles": [ "file:///home/ray/markdown/markdown.css",
+    "file:///home/ray/markdown/vscode.css" ]
+}
