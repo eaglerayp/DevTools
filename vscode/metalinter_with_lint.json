@@ -1,15 +1,14 @@
 {
     "Disable": [
-        "golint",
         "gocyclo",
         "errcheck",
         "gotype",
         "dupl",
         "gas"
     ],
-    "Concurrency": 1,
+    "Concurrency": 3,
     "Cyclo": 10,
-    "Deadline": "30s",
+    "Deadline": "60s",
     "LineLength": 120,
     "MinConfidence": 0.5,
     "MinOccurrences": 3,
