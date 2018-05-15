@@ -1,5 +1,10 @@
 # Go Develop env
 
+## Enviroment
+
+* environment: save in `/etc/environment`: Add global setting environment variables here.
+* bashrc: Add user setting in export format
+
 ## VSCODE
 
 ### Plugin
