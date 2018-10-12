@@ -1,14 +1,12 @@
 {
     "Disable": [
-        "gocyclo",
         "errcheck",
-        "gotype",
-        "dupl",
-        "gas"
+        "megacheck",
+        "structcheck"
     ],
     "Concurrency": 3,
-    "Cyclo": 10,
-    "Deadline": "60s",
+    "Cyclo": 25,
+    "Deadline": "30s",
     "LineLength": 120,
     "MinConfidence": 0.5,
     "MinOccurrences": 3,
