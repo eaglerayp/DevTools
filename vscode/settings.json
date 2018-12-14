@@ -1,23 +1,21 @@
 {
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Go-Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "go.goroot": "/usr/local/go",
     "go.gopath": "/home/ray/go",
     "go.formatTool": "goreturns",
-    "go.lintTool": "gometalinter",
-    "go.lintFlags": ["--vendor", "--config=/home/ray/DevTools/vscode/metalinter_with_lint.json"], 
-    //"markdown.preview.fontFamily": "'Noto Sans TC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light'",
-    "markdown.styles": [ "file:///home/ray/DevTools/markdown/markdown.css",
-    "file:///home/ray/DevTools/markdown/vscode.css" ]
-,
-    "editor.fontSize": 20
-,
-    "editor.fontFamily": "'Go-Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": ["--fast"], 
     "go.buildOnSave": "off",
     "go.lintOnSave": "package",
     "go.gocodeAutoBuild": false,
+    "go.coverOnTestPackage": true,
+    "go.testOnSave": false,
+
     "apiElements.parser.requireBlueprintName": true,
     "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.wordWrap": "wordWrapColumn",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -26,7 +24,6 @@
     "extensions.ignoreRecommendations": false,
     "plantuml.java": "/home/ray/Documents/jdk1.8.0_171/bin/java",
     "explorer.confirmDragAndDrop": false,
-    "gitlens.historyExplorer.enabled": true,
     "editor.wordWrapColumn": 100,
     "files.autoSave": "off",
     "workbench.editor.enablePreviewFromQuickOpen":false,
@@ -34,5 +31,8 @@
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
     "java.errors.incompleteClasspath.severity": "ignore",
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
