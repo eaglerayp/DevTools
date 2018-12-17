@@ -115,8 +115,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias k="kubectl"
+alias kg="kubectl get"
+alias kgp="kubectl get po"
 export GOPATH="/home/ray/go"
 export JAVA_HOME="/home/ray/Documents/jdk1.8.0_171"
 export PATH="$PATH:$GOPATH/bin:$GOROOT/bin:$JAVA_HOME/bin:~/.pyenv/bin"
+export APISERVER_URL="https://kube-master.tw.maaii.com:6443"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
