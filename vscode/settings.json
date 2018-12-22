@@ -1,38 +1,47 @@
 {
     "editor.fontSize": 18,
     "editor.fontFamily": "'Go-Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "editor.multiCursorModifier": "ctrlCmd",
+
     "go.goroot": "/usr/local/go",
     "go.gopath": "/home/ray/go",
-    "go.formatTool": "goreturns",
+    "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
     "go.lintFlags": ["--fast"], 
     "go.buildOnSave": "off",
     "go.lintOnSave": "package",
-    "go.gocodeAutoBuild": false,
+    "go.gocodeAutoBuild": true,
     "go.coverOnTestPackage": true,
     "go.testOnSave": false,
+    "go.gotoSymbol.includeImports": true,
+    "go.inferGopath": true,
+
+    "files.autoSave": "off",
 
     "apiElements.parser.requireBlueprintName": true,
-    "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "vscode-icons",
+
     "window.zoomLevel": 1,
-    "editor.wordWrap": "wordWrapColumn",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.defaultDateStyle": "absolute",
+    
     "extensions.ignoreRecommendations": false,
     "plantuml.java": "/home/ray/Documents/jdk1.8.0_171/bin/java",
     "explorer.confirmDragAndDrop": false,
-    "editor.wordWrapColumn": 100,
-    "files.autoSave": "off",
+    
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreviewFromQuickOpen":false,
     "workbench.editor.enablePreview": false,
+
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
     "java.errors.incompleteClasspath.severity": "ignore",
     "breadcrumbs.enabled": true,
+
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "editor.multiCursorModifier": "ctrlCmd"
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateStyle": "absolute",
 }
