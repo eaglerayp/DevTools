@@ -91,6 +91,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias cat='bat'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -115,13 +116,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 alias k="kubectl"
 alias kg="kubectl get"
 alias kgp="kubectl get po"
+
 export GOPATH="/home/ray/go"
 export JAVA_HOME="/home/ray/Documents/jdk1.8.0_171"
-export PATH="$PATH:$GOPATH/bin:$GOROOT/bin:$JAVA_HOME/bin:~/.pyenv/bin"
+export PATH="$PATH:$GOPATH/bin:$GOROOT/bin:$JAVA_HOME/bin:~/.pyenv/bin:~/.kubectx"
 export APISERVER_URL="https://kube-master.tw.maaii.com:6443"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
