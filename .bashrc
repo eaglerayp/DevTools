@@ -119,6 +119,7 @@ fi
 alias k="kubectl"
 alias kg="kubectl get"
 alias kgp="kubectl get po"
+alias kgv='kubectl get deploy -o=custom-columns=NAME:.metadata.name,VERSION:.metadata.annotations.version,BRANCH:".metadata.annotations.branch",REVISION:".metadata.annotations.revision"'
 
 export GOPATH="/home/ray/go"
 export JAVA_HOME="/home/ray/Documents/jdk1.8.0_171"
