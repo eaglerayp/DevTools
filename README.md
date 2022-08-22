@@ -17,11 +17,12 @@
 
 ### Plugin
 
-* go: Go, Golang TDD (highlight coverage code)
+* go: 
+* Golang TDD (highlight coverage code)
 * doc: API Elements extension (for API Blueprint), plantUML, markdownlint
-* e2e-test: robotframewok
 * protobuf: vscode-proto3
-* config: YAML, Better TOML
+* config: YAML, Better TOML, xxx format
+* tabnine AI/ github co-pilot: auto coding
 
 ## Go Tools
 
