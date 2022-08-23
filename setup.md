@@ -8,6 +8,7 @@
 * go
 * homebrew (mac)
 * setup git config, github remote ssh setup
-* setup zshrc/bashrc
+* setup zshrc/bashrc, ohmyzsh & fonts
 * slack
+* kubectl, k9s
 * 
