@@ -11,4 +11,6 @@
 * setup zshrc/bashrc, ohmyzsh & fonts
 * slack
 * kubectl, k9s
+* docker
+* protoc, protoc-gen-go, protoc-gen-go-grpc
 * 
