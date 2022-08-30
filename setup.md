@@ -8,33 +8,11 @@
 * go
 * homebrew (mac)
 * setup git config, github remote ssh setup
-* setup ssh config if need multiple github account/ssh keys: https://gist.github.com/jexchan/2351996
+* setup github PAT if multiple github account switch, using git config insteadOf
 
 ```
-# .ssh/config
-
-Host github.com-eaglerayp
-  HostName github.com
-  AddKeysToAgent yes
-  UseKeychain yes
-  User git
-  IdentityFile ~/.ssh/eagle_rsa
-
-Host *
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_rsa
-  
-# ~/#user or org/.gitconfig
-[user]
-	name = eaglerayp
-	email = b98705002@gmail.com
-
-# change hostname to fit ssh config
-[url "git@github.com:eaglerayp"]
-	insteadOf = git@github.com-eaglerayp:eaglerayp
+url.https://eaglerayp:{PAT}@github.com.insteadof=git@github.com:eaglerayp
 ```
-
 
 * setup zshrc/bashrc, ohmyzsh & fonts
 * slack
@@ -45,3 +23,4 @@ Host *
 * ngrok
 * mongoDB GUI: studio 3T
 * SqlDB GUI: tablePlus/sequelpro (mac), 
+* fonts ( Hack Nerd Font Mono, ...)
