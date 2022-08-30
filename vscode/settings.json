@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 18,
-    "editor.fontFamily": "'Go-Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "Hack Nerd Font Mono, 'Go-Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 100,
     "editor.multiCursorModifier": "ctrlCmd",

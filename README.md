@@ -17,12 +17,15 @@
 
 ### Plugin
 
-* go: 
+* go
 * Golang TDD (highlight coverage code)
-* doc: API Elements extension (for API Blueprint), plantUML, markdownlint
+* doc: API Elements extension (for API Blueprint), plantUML, markdownlint, openAPI Editor, Swagger Viewer
 * protobuf: vscode-proto3
 * config: YAML, Better TOML, xxx format
 * tabnine AI/ github co-pilot: auto coding
+* vscode icons
+* GitLens
+* 
 
 ## Go Tools
 

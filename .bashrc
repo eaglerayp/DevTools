@@ -124,6 +124,5 @@ alias kgv='kubectl get deploy -o=custom-columns=NAME:.metadata.name,VERSION:.met
 export GOPATH="/home/ray/go"
 export JAVA_HOME="/home/ray/Documents/jdk1.8.0_171"
 export PATH="$PATH:$GOPATH/bin:$GOROOT/bin:$JAVA_HOME/bin:~/.pyenv/bin:~/.kubectx"
-export APISERVER_URL="https://kube-master.tw.maaii.com:6443"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
