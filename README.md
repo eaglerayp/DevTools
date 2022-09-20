@@ -3,13 +3,13 @@
 ## Enviroment
 
 * environment: save in `/etc/environment`: Add global setting environment variables here.
-* bashrc: Add user setting in export format
+* bashrc/zshrc : Add user setting in export format
 
 ## K8S
 
 * install `kubectl` by apt...
 * config in `~/.kube`
-* kubectx
+* k9s
 * kubefwd
 * set `APISERVER_URL` env
 
@@ -25,11 +25,10 @@
 * tabnine AI/ github co-pilot: auto coding
 * vscode icons
 * GitLens
+* go mod grapher
 * 
 
 ## Go Tools
 
 * golangci
-* godep
-* github.com/uber/go-torch (for profiling)
 * snowboard (for rendering api blueprint)
