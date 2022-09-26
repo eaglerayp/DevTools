@@ -7,16 +7,15 @@
 
     "go.goroot": "/usr/local/go",
     "go.gopath": "/home/ray/go",
-    "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
     "go.lintFlags": ["--fast"], 
-    "go.buildOnSave": "off",
-    "go.lintOnSave": "package",
     "go.gocodeAutoBuild": true,
     "go.coverOnTestPackage": true,
-    "go.testOnSave": false,
-    "go.gotoSymbol.includeImports": true,
-    "go.inferGopath": true,
+    "go.testFlags": [
+        "-cover",
+        "-race"
+    ],
+    "go.testTimeout": "60s",
 
     "files.autoSave": "off",
 
